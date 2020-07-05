@@ -121,7 +121,7 @@ const upload = function (
         }
       }
       context["uploadedFiles"] = res;
-      context["xdata"] = formField;
+      context["xdata"] = item;
     } else {
       context.throw(
         422,
