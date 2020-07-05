@@ -121,7 +121,7 @@ const upload = function (
         }
       }
       context["uploadedFiles"] = res;
-      context["xdata"] = item;
+      console.log(context);
     } else {
       context.throw(
         422,
